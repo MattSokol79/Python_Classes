@@ -23,13 +23,13 @@ max = Cat()
 frankie = Cat()
 
 # Changing the variables for each object and then displaying the changes
-# for every cat
+# for every cat with the MEOWWWW remaining the same
 ginger.animal_kind = "BIG feline"
 ginger.tendency = "a little wuss"
 
 print(f"ginger is a -----> " + ginger.animal_kind)
 print(f"ginger has a tendency to be ------> " + ginger.tendency)
-print(ginger.meow())
+print("meow??   "+ ginger.meow())
 
 
 max.animal_kind = "small feline"
@@ -37,11 +37,11 @@ max.tendency = "scratch scratch"
 
 print(f"max is a -----> " + max.animal_kind)
 print(f"max has a tendency to ------> " + max.tendency)
-print(max.meow())
+print("meow???   "+ max.meow())
 
 frankie.animal_kind = "wild feline"
 frankie.tendency = "a bit wild"
 
 print(f"frankie is a -----> " + frankie.animal_kind)
 print(f"frankie has a tendency to be ------> " + frankie.tendency)
-print(frankie.meow())
+print("meowww????    "+ frankie.meow())
