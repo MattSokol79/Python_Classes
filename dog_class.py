@@ -1,4 +1,4 @@
-# Classes, objects and instantciation
+# Classes, objects and instantiating
 
 # How to create class
 # Synatx: class name_of_class starting with Capital letter

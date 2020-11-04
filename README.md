@@ -16,12 +16,21 @@ for derived classes.
 used to implement any of these 
 pillars
 
+### Creating a class
+```python
+class Class_name:
+    variable = "Something"
+
+    def function(self):
+        return "Something"
+```
+
 ### Dog Class Example
 ```python
 # Classes, objects and instantciation
 
 # How to create class
-# Synatx: class name_of_class starting with Capital letter
+# Syntax: class name_of_class starting with Capital letter
 # good naming convention is required
 
 # classes are a way to bring data and functionality together
