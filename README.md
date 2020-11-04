@@ -1,5 +1,5 @@
 # Day 3 - Classes
-##OOP - Object Oriented Programming
+## OOP - Object Oriented Programming
 ### There are four pillars
 - Inheritance (most used)
 - Encapsulation
