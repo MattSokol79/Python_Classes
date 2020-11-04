@@ -4,7 +4,12 @@
 - Inheritance (most used)
 - Encapsulation
 - Abstraction
-- Polymorphism
+- Polymorphism - refers to a programming
+languages ability to process objects 
+differently depending on their data
+type or class. More specifically,
+it is the ability to redefine methods 
+for derived classes.
 
 **What are classes?:**
 - Class is the main factor that is 
