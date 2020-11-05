@@ -1,15 +1,16 @@
 # Day 3 - Classes
 ## OOP - Object Oriented Programming
-### There are four pillars
-- Inheritance (most used)
-- Encapsulation
-- Abstraction
-- Polymorphism - refers to a programming
-languages ability to process objects 
-differently depending on their data
-type or class. More specifically,
-it is the ability to redefine methods 
-for derived classes.
+### There are 4 pillars
+1. Inheritance (most used) - **Eliminates redundant code**.
+We can use all functions and variable from parent class
+2. Encapsulation - **Reduce complexity and increase reusability**.
+Also used to reduce access, making private methods/
+variables etc.
+3. Abstraction - **Reduce complexity and isolate impact of changes**.
+
+4. Polymorphism (Many Forms) - **Refactor code or case statements**.
+It allows us to change behaviour or attributes
+/ variables 
 
 **What are classes?:**
 - Class is the main factor that is 
@@ -26,40 +27,10 @@ class Class_name:
 ```
 
 ### Dog Class Example
-```python
-# Classes, objects and instantciation
+As an introduction to coding classes, we 
+created a simple Dog class:
 
-# How to create class
-# Syntax: class name_of_class starting with Capital letter
-# good naming convention is required
-
-# classes are a way to bring data and functionality together
-class Dog:
-
-    animal_kind = "Canine is running"   # defining class variable
-
-    def bark(self):  # self refers to current class
-        return "woof"
-
-# in order to execute a class we have to create an object of this class
-fido = Dog()  # Creating an object of our Dog class
-
-print(fido)
-print(fido.animal_kind) # Fido is a canine
-print(fido.bark()) # Fido barks woof
-
-print("Below are lassie's results objects ")
-lassie = Dog() # Creating an object of our Dog class
-print((lassie.bark()))
-print(lassie.animal_kind)
-
-fido.animal_kind = "Big Dog"
-# Changing the animal_kind for fido
-# will not have any impact on the main Dog() class, so will not impact lassie
-print("fido changed to Big Dog -----> " + fido.animal_kind)
-print("lassie is unaffected -----> " + lassie.animal_kind)
-
-```
+[Dog](https://github.com/MattSokol79/Python_Classes/blob/main/dog_class.py)
 
 ### Task - Cat Class
 Practiced the concepts by
