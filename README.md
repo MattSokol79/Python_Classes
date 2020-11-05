@@ -62,53 +62,8 @@ print("lassie is unaffected -----> " + lassie.animal_kind)
 ```
 
 ### Task - Cat Class
-```python
-# Create a Cat class
+Practiced the concepts by
+creating a basic Cat class.
 
-# one function that returns "MEOWWWW"
+[Cat](https://github.com/MattSokol79/Python_Classes/blob/main/cat_class.py)
 
-# Create 2 class level variable
-# Create 3 objects
-# Display all information with each object
-# Change the class variable values in each object and display
-# Pseudo code each block of code
-
-class Cat:
-
-    animal_kind = "feline"
-
-    tendency = "cuddly"
-
-    def meow(Self):
-        return "MEOWWWW"
-
-# Creating 3 objects i.e. cats
-ginger = Cat()
-max = Cat()
-frankie = Cat()
-
-# Changing the variables for each object and then displaying the changes
-# for every cat with the MEOWWWW remaining the same
-ginger.animal_kind = "BIG feline"
-ginger.tendency = "a little wuss"
-
-print(f"ginger is a -----> " + ginger.animal_kind)
-print(f"ginger has a tendency to be ------> " + ginger.tendency)
-print("meow??   "+ ginger.meow())
-
-
-max.animal_kind = "small feline"
-max.tendency = "scratch scratch"
-
-print(f"max is a -----> " + max.animal_kind)
-print(f"max has a tendency to ------> " + max.tendency)
-print("meow???   "+ max.meow())
-
-frankie.animal_kind = "wild feline"
-frankie.tendency = "a bit wild"
-
-print(f"frankie is a -----> " + frankie.animal_kind)
-print(f"frankie has a tendency to be ------> " + frankie.tendency)
-print("meowww????    "+ frankie.meow())
-
-```
